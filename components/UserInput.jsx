@@ -1,5 +1,6 @@
-export default function UserInput(){
-    return(
+
+  export default function UserInput(){
+    return(<>
         <div id="user-input">
             <label htmlFor="initial-investment">Initial Investment</label>
             <input type="text"  className="input-group"/>
@@ -10,5 +11,11 @@ export default function UserInput(){
             <label htmlFor="duration">Duration</label>
             <input type="text"  className="input-group" />
         </div>
+        <div>
+      
+        </div>
+        </>
+
+        
     )
 }
